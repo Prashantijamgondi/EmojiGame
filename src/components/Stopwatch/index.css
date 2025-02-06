@@ -1,0 +1,102 @@
+/* Write CSS here */
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/stopwatch-sm-bg.png');
+  background-size: cover;
+  min-height: 150vh;
+  min-width: 100vw;
+}
+
+.heading {
+  margin: 15px;
+  padding-left: 25vw;
+  padding-top: 10vh;
+  padding-bottom: 5vh;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    flex-direction: column;
+    background-image: url('https://assets.ccbp.in/frontend/react-js/stopwatch-lg-bg.png');
+  }
+  .card {
+    height: 300px;
+    min-width: 400px;
+  }
+}
+
+.card {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-left: 20%;
+  height: 280px;
+  width: 280px;
+  box-shadow: 0px 4px 16px 0px #bfbf;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.watch-head {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  padding-right: 10px;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.btn1 {
+  border-color: #1db05f;
+  background-color: #1db05f;
+  padding: 6px;
+  margin-left: 25px;
+  padding-left: 12px;
+  padding-right: 12px;
+  border: solid;
+  border-width: 0.1px;
+  border-radius: 2px;
+  color: white;
+  cursor: pointer;
+}
+
+.btn2 {
+  border-color: #ef0d36;
+  background-color: #ef0d36;
+  margin-left: 25px;
+  padding-left: 12px;
+  padding-right: 12px;
+  border: solid;
+  border-width: 0.1px;
+  border-radius: 2px;
+  color: white;
+  cursor: pointer;
+}
+
+.btn3 {
+  border-color: #eaa800;
+  background-color: #eaa800;
+  margin-left: 25px;
+  padding-left: 12px;
+  padding-right: 12px;
+  border: solid;
+  border-width: 0.1px;
+  border-radius: 2px;
+  color: white;
+  cursor: pointer;
+}
